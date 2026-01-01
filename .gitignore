@@ -1,0 +1,12 @@
+# Generated digests
+digests/
+
+# User configuration (use config.example.json as template)
+config.json
+
+# Python cache
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store

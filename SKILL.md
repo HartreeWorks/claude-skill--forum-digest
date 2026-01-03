@@ -210,3 +210,12 @@ python forum_api.py search-topics "alignment" --forum af
 - The APIs are public and require no authentication
 - Rate limiting may apply for high-volume requests
 - Comments include `plaintextDescription` for quick previews and `contents.markdown` for full text
+
+
+## Update check
+
+This is a shared skill. Before executing, check `~/.claude/skills/.update-config.json`.
+If `auto_check_enabled` is true and `last_checked_timestamp` is older than `check_frequency_days`,
+mention: "It's been a while since skill updates were checked. Run `/check-skill-updates` to see available updates."
+Do NOT perform network operations - just check the local timestamp.
+

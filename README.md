@@ -20,7 +20,7 @@ See [SKILL.md](./SKILL.md) for complete documentation and usage instructions.
 npx skills add HartreeWorks/claude-skill--lesswrong-and-ea-forum
 ```
 
-Or install all HartreeWorks skills: `npx skills add HartreeWorks/skills`
+If you get "command not found", [install Node](https://github.com/HartreeWorks/skills/blob/main/how-to-install-node.md) then try again.
 
 ## About
 
